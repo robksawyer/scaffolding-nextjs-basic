@@ -11,7 +11,7 @@ const {{name}} = ({
   className = '',
   variant = 'default',
   children = '',
-} ) => {
+}) => {
 
   return (
     <Tag className={`${styles.{{className}}} ${styles[`{{className}}__${variant}`]} ${className}`}>
